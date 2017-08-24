@@ -5,4 +5,6 @@
 - In terminal from the project directory install:
 
 `create-react-app Age-Calculator
-`
+
+
+`npm install react-bootstrap --save`
