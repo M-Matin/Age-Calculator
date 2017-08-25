@@ -77,3 +77,8 @@ ReactDOM.render(
 ### Calling a Form Component
 
 Since we have **react-bootstrap** we can call the Form, FormControl, and Button from [react-bootstrap](https://react-bootstrap.github.io) !
+```javascript
+import { Form, FormControl, Button } from 'react-bootstrap';
+```
+
+Then use the bootstrap library for the form
