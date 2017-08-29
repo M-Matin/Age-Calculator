@@ -3,13 +3,14 @@ import { Form, FormControl, Button } from 'react-bootstrap';
 import './App.css';
 import AgeState from './AgeState'
 
+
 class App extends Component {
     constructor() {
         super();
 //var
         this.state = {
             newDate: '',
-            birthday: '1985-07-27'
+            birthday: '00/00/0000'
         }
     }
 
@@ -20,8 +21,9 @@ class App extends Component {
     }
     render() {
         return (
-            <div className='App'>
-                <Form inline>
+            // Class is the reserved word in react so we use className for css instead of "class"
+            <div className='App'> 
+                <Form inline> 
                 <h2>Input Your Birthday!</h2>
                     <FormControl
                      type="date"
